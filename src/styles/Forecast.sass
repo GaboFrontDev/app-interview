@@ -1,0 +1,49 @@
+@import 'styles/_variables'
+.content
+  display: flex
+  position: relative
+  flex-wrap: wrap
+
+.location
+  >p
+    font-size: 14px
+    text-align: right
+
+.iconContainer
+  width: 30%
+  justify-content: center
+  align-items: center
+  display: flex
+  >img
+    width: 100%
+
+.detail
+  width: 65%
+  display: flex
+  flex-wrap: wrap
+  position: relative
+  margin: 0 5px
+  @media ( max-width: $breakpoint-mobile )
+    .description
+      position: absolute
+      bottom: 0
+      text-align: right
+
+  .time
+    width: 100%
+    h2
+      margin: 0
+  .description
+    position: absolute
+    bottom: 0
+    text-align: right
+    width: 100%
+    p
+      margin: 0
+    h3
+      margin: 0
+.toggle
+  width: 100%
+  display: flex
+  margin: 10px 0
+  justify-content: center
