@@ -3,21 +3,23 @@
 Uses the MetaWeather API to show the weather for a location
 
 ## Assignment Instructions
-* Please read all instructions before beginning the assignment
-* This assignment must be completed as a web application using Javascript and HTML
-* We recommend using React (we included tooling to make this easier).
-You are free, however, to select any framework you are comfortable with, or none at all.
-* Clone this repo. **Do not commit, branch, or fork this repo.**
-* The goal of this assignment is to create a simple weather web app using the metaweather Apis
-* For the weather data, use the following hardcoded URL: https://www.metaweather.com/api/location/2367105/
-* The app does not need to be interactive. When the page loads, it should query the weather API for Boston's weather.
-The minimum and maximum temperature for the day should be displayed, as well as an icon for the weather and the location.
-* We expect this assignment will take around 1-3 hours. You have **24 hours** from receipt of the assignment to submit your solution to us.
-* Please follow the following mockup as a guide:
+
+- Please read all instructions before beginning the assignment
+- This assignment must be completed as a web application using Javascript and HTML
+- We recommend using React (we included tooling to make this easier).
+  You are free, however, to select any framework you are comfortable with, or none at all.
+- Clone this repo. **Do not commit, branch, or fork this repo.**
+- The goal of this assignment is to create a simple weather web app using the metaweather Apis
+- For the weather data, use the following hardcoded URL: https://www.metaweather.com/api/location/2367105/
+- The app does not need to be interactive. When the page loads, it should query the weather API for Boston's weather.
+  The minimum and maximum temperature for the day should be displayed, as well as an icon for the weather and the location.
+- We expect this assignment will take around 1-3 hours. You have **24 hours** from receipt of the assignment to submit your solution to us.
+- Please follow the following mockup as a guide:
 
 ![Mockup](images/mockup.png?raw=true "Mockup")
-* Submit your assignment by uploading the completed contents to your own private
-    repo and giving access to the interview team.
+
+- Submit your assignment by uploading the completed contents to your own private
+  repo and giving access to the interview team.
 
 ## Setup
 
@@ -42,3 +44,12 @@ npm start
 Documentation for the metaweather API can be found at: https://www.metaweather.com/api/
 
 We've already taken care of setting the proper CORS headers in the dev server environment.
+
+## Gabriel Info
+
+I had to create a service for asking to server for the current weather over boston
+
+This service is over heroku app at: http://pleaserain.heroku.com/:city which could be used for testing.
+
+Also you can run the server at the service repo but you would need an API token from https://www.weatherstack.com
+and store it as a env variable.
